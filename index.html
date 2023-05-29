@@ -13,6 +13,7 @@
     <!-- Owl -->
     <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
 </head>
 
 <body>
@@ -48,7 +49,7 @@
     <script id="template" type="x-tmpl-mustache">
         {{#myData}}
         <div class="owl-item">
-            <img src="{{url}}" id="{{country}}" class="img-fluid w-75 mx-auto rounded-3">
+            <img src="{{flags.svg}}" id="{{name.common}}" class="img-fluid h-100 w-100 mx-auto rounded-3">
         </div>
         {{/myData}}
       </script>
@@ -75,3 +76,5 @@
 </body>
 
 </html>
+
+
